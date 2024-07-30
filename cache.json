@@ -1,0 +1,887 @@
+{
+    "safetensors-metadata": {
+        "checkpoint/v1-5-pruned-emaonly.safetensors": {
+            "mtime": 1714760640.1040561,
+            "value": {
+                "format": "pt"
+            }
+        },
+        "checkpoint/Juggernaut_X_RunDiffusion_Hyper.safetensors": {
+            "mtime": 1715003755.892297,
+            "value": {
+                "sd_merge_recipe": {
+                    "type": "webui",
+                    "primary_model_hash": null,
+                    "secondary_model_hash": null,
+                    "tertiary_model_hash": null,
+                    "interp_method": "No interpolation",
+                    "multiplier": 0,
+                    "save_as_half": false,
+                    "custom_name": "Juggernaut_X_RunDiffusionPhoto_Hyper",
+                    "config_source": 0,
+                    "bake_in_vae": "sdxl_vae_fp16-fix.safetensors",
+                    "discard_weights": "",
+                    "is_inpainting": false,
+                    "is_instruct_pix2pix": false
+                },
+                "sd_merge_models": {
+                    "c3ea20d03d3270b79351e0ceb8febcdd319b2ba0e50e94151af0d298c3c4cdca": {
+                        "name": "Juggernaut_X_RunDiffusionPhoto_Hyper.fp16.safetensors",
+                        "legacy_hash": "e14b8edc",
+                        "sd_merge_recipe": null
+                    }
+                },
+                "format": "pt"
+            }
+        },
+        "checkpoint/juggernautXL_v9Rdphoto2Lightning.safetensors": {
+            "mtime": 1715787193.5567467,
+            "value": {
+                "sd_merge_models": {
+                    "c785500b037eac006c0e7a5f76dac10abfe8219627c19005180995b3a72d5fa0": {
+                        "name": "JuggernautXL_RDPhoto2_Lighting2.fp16.safetensors",
+                        "legacy_hash": "aebfcabd",
+                        "sd_merge_recipe": null
+                    }
+                },
+                "format": "pt",
+                "sd_merge_recipe": {
+                    "type": "webui",
+                    "primary_model_hash": "c785500b037eac006c0e7a5f76dac10abfe8219627c19005180995b3a72d5fa0",
+                    "secondary_model_hash": null,
+                    "tertiary_model_hash": null,
+                    "interp_method": "No interpolation",
+                    "multiplier": 0,
+                    "save_as_half": false,
+                    "custom_name": "Juggernaut_RunDiffusionPhoto2_Lightning_4Steps",
+                    "config_source": 0,
+                    "bake_in_vae": "sdxl_vae_fp16-fix.safetensors",
+                    "discard_weights": "",
+                    "is_inpainting": false,
+                    "is_instruct_pix2pix": false
+                }
+            }
+        },
+        "lora/perfection style": {
+            "mtime": 1720529337.1301017,
+            "value": {
+                "ss_keep_tokens": "0",
+                "ss_tag_frequency": {
+                    "20_perfection style": {
+                        "perfection style": 1900
+                    }
+                },
+                "ss_batch_size_per_device": "6",
+                "ss_color_aug": "False",
+                "ss_bucket_info": {
+                    "buckets": {
+                        "0": {
+                            "resolution": [
+                                256,
+                                576
+                            ],
+                            "count": 20
+                        },
+                        "1": {
+                            "resolution": [
+                                448,
+                                256
+                            ],
+                            "count": 20
+                        },
+                        "2": {
+                            "resolution": [
+                                448,
+                                640
+                            ],
+                            "count": 40
+                        },
+                        "3": {
+                            "resolution": [
+                                448,
+                                768
+                            ],
+                            "count": 20
+                        },
+                        "4": {
+                            "resolution": [
+                                512,
+                                576
+                            ],
+                            "count": 20
+                        },
+                        "5": {
+                            "resolution": [
+                                512,
+                                768
+                            ],
+                            "count": 60
+                        },
+                        "6": {
+                            "resolution": [
+                                512,
+                                960
+                            ],
+                            "count": 20
+                        },
+                        "7": {
+                            "resolution": [
+                                512,
+                                1664
+                            ],
+                            "count": 20
+                        },
+                        "8": {
+                            "resolution": [
+                                576,
+                                896
+                            ],
+                            "count": 140
+                        },
+                        "9": {
+                            "resolution": [
+                                576,
+                                960
+                            ],
+                            "count": 40
+                        },
+                        "10": {
+                            "resolution": [
+                                576,
+                                1280
+                            ],
+                            "count": 20
+                        },
+                        "11": {
+                            "resolution": [
+                                640,
+                                320
+                            ],
+                            "count": 20
+                        },
+                        "12": {
+                            "resolution": [
+                                640,
+                                832
+                            ],
+                            "count": 20
+                        },
+                        "13": {
+                            "resolution": [
+                                640,
+                                896
+                            ],
+                            "count": 40
+                        },
+                        "14": {
+                            "resolution": [
+                                640,
+                                960
+                            ],
+                            "count": 280
+                        },
+                        "15": {
+                            "resolution": [
+                                640,
+                                1024
+                            ],
+                            "count": 460
+                        },
+                        "16": {
+                            "resolution": [
+                                640,
+                                1216
+                            ],
+                            "count": 20
+                        },
+                        "17": {
+                            "resolution": [
+                                640,
+                                1280
+                            ],
+                            "count": 20
+                        },
+                        "18": {
+                            "resolution": [
+                                640,
+                                1344
+                            ],
+                            "count": 20
+                        },
+                        "19": {
+                            "resolution": [
+                                640,
+                                1472
+                            ],
+                            "count": 20
+                        },
+                        "20": {
+                            "resolution": [
+                                704,
+                                448
+                            ],
+                            "count": 20
+                        },
+                        "21": {
+                            "resolution": [
+                                704,
+                                832
+                            ],
+                            "count": 20
+                        },
+                        "22": {
+                            "resolution": [
+                                704,
+                                960
+                            ],
+                            "count": 20
+                        },
+                        "23": {
+                            "resolution": [
+                                704,
+                                1024
+                            ],
+                            "count": 20
+                        },
+                        "24": {
+                            "resolution": [
+                                704,
+                                1088
+                            ],
+                            "count": 140
+                        },
+                        "25": {
+                            "resolution": [
+                                704,
+                                1152
+                            ],
+                            "count": 20
+                        },
+                        "26": {
+                            "resolution": [
+                                704,
+                                1216
+                            ],
+                            "count": 60
+                        },
+                        "27": {
+                            "resolution": [
+                                704,
+                                1280
+                            ],
+                            "count": 60
+                        },
+                        "28": {
+                            "resolution": [
+                                704,
+                                1344
+                            ],
+                            "count": 20
+                        },
+                        "29": {
+                            "resolution": [
+                                704,
+                                1408
+                            ],
+                            "count": 40
+                        },
+                        "30": {
+                            "resolution": [
+                                768,
+                                512
+                            ],
+                            "count": 40
+                        },
+                        "31": {
+                            "resolution": [
+                                768,
+                                960
+                            ],
+                            "count": 60
+                        },
+                        "32": {
+                            "resolution": [
+                                768,
+                                1024
+                            ],
+                            "count": 40
+                        },
+                        "33": {
+                            "resolution": [
+                                768,
+                                1088
+                            ],
+                            "count": 180
+                        },
+                        "34": {
+                            "resolution": [
+                                768,
+                                1152
+                            ],
+                            "count": 940
+                        },
+                        "35": {
+                            "resolution": [
+                                768,
+                                1216
+                            ],
+                            "count": 180
+                        },
+                        "36": {
+                            "resolution": [
+                                768,
+                                1280
+                            ],
+                            "count": 80
+                        },
+                        "37": {
+                            "resolution": [
+                                768,
+                                1344
+                            ],
+                            "count": 160
+                        },
+                        "38": {
+                            "resolution": [
+                                832,
+                                704
+                            ],
+                            "count": 20
+                        },
+                        "39": {
+                            "resolution": [
+                                832,
+                                768
+                            ],
+                            "count": 40
+                        },
+                        "40": {
+                            "resolution": [
+                                832,
+                                1024
+                            ],
+                            "count": 20
+                        },
+                        "41": {
+                            "resolution": [
+                                832,
+                                1088
+                            ],
+                            "count": 780
+                        },
+                        "42": {
+                            "resolution": [
+                                832,
+                                1152
+                            ],
+                            "count": 980
+                        },
+                        "43": {
+                            "resolution": [
+                                832,
+                                1216
+                            ],
+                            "count": 4100
+                        },
+                        "44": {
+                            "resolution": [
+                                896,
+                                576
+                            ],
+                            "count": 40
+                        },
+                        "45": {
+                            "resolution": [
+                                896,
+                                832
+                            ],
+                            "count": 20
+                        },
+                        "46": {
+                            "resolution": [
+                                896,
+                                896
+                            ],
+                            "count": 80
+                        },
+                        "47": {
+                            "resolution": [
+                                896,
+                                960
+                            ],
+                            "count": 20
+                        },
+                        "48": {
+                            "resolution": [
+                                896,
+                                1024
+                            ],
+                            "count": 180
+                        },
+                        "49": {
+                            "resolution": [
+                                896,
+                                1088
+                            ],
+                            "count": 560
+                        },
+                        "50": {
+                            "resolution": [
+                                896,
+                                1152
+                            ],
+                            "count": 340
+                        },
+                        "51": {
+                            "resolution": [
+                                960,
+                                704
+                            ],
+                            "count": 20
+                        },
+                        "52": {
+                            "resolution": [
+                                960,
+                                896
+                            ],
+                            "count": 60
+                        },
+                        "53": {
+                            "resolution": [
+                                960,
+                                960
+                            ],
+                            "count": 220
+                        },
+                        "54": {
+                            "resolution": [
+                                960,
+                                1024
+                            ],
+                            "count": 160
+                        },
+                        "55": {
+                            "resolution": [
+                                1024,
+                                576
+                            ],
+                            "count": 20
+                        },
+                        "56": {
+                            "resolution": [
+                                1024,
+                                640
+                            ],
+                            "count": 120
+                        },
+                        "57": {
+                            "resolution": [
+                                1024,
+                                704
+                            ],
+                            "count": 20
+                        },
+                        "58": {
+                            "resolution": [
+                                1024,
+                                768
+                            ],
+                            "count": 60
+                        },
+                        "59": {
+                            "resolution": [
+                                1024,
+                                896
+                            ],
+                            "count": 120
+                        },
+                        "60": {
+                            "resolution": [
+                                1024,
+                                960
+                            ],
+                            "count": 180
+                        },
+                        "61": {
+                            "resolution": [
+                                1024,
+                                1024
+                            ],
+                            "count": 10340
+                        },
+                        "62": {
+                            "resolution": [
+                                1088,
+                                576
+                            ],
+                            "count": 20
+                        },
+                        "63": {
+                            "resolution": [
+                                1088,
+                                704
+                            ],
+                            "count": 40
+                        },
+                        "64": {
+                            "resolution": [
+                                1088,
+                                768
+                            ],
+                            "count": 20
+                        },
+                        "65": {
+                            "resolution": [
+                                1088,
+                                832
+                            ],
+                            "count": 900
+                        },
+                        "66": {
+                            "resolution": [
+                                1088,
+                                896
+                            ],
+                            "count": 360
+                        },
+                        "67": {
+                            "resolution": [
+                                1152,
+                                640
+                            ],
+                            "count": 40
+                        },
+                        "68": {
+                            "resolution": [
+                                1152,
+                                704
+                            ],
+                            "count": 180
+                        },
+                        "69": {
+                            "resolution": [
+                                1152,
+                                768
+                            ],
+                            "count": 1620
+                        },
+                        "70": {
+                            "resolution": [
+                                1152,
+                                832
+                            ],
+                            "count": 720
+                        },
+                        "71": {
+                            "resolution": [
+                                1152,
+                                896
+                            ],
+                            "count": 520
+                        },
+                        "72": {
+                            "resolution": [
+                                1216,
+                                448
+                            ],
+                            "count": 20
+                        },
+                        "73": {
+                            "resolution": [
+                                1216,
+                                704
+                            ],
+                            "count": 20
+                        },
+                        "74": {
+                            "resolution": [
+                                1216,
+                                768
+                            ],
+                            "count": 1500
+                        },
+                        "75": {
+                            "resolution": [
+                                1216,
+                                832
+                            ],
+                            "count": 5820
+                        },
+                        "76": {
+                            "resolution": [
+                                1280,
+                                576
+                            ],
+                            "count": 20
+                        },
+                        "77": {
+                            "resolution": [
+                                1280,
+                                640
+                            ],
+                            "count": 20
+                        },
+                        "78": {
+                            "resolution": [
+                                1280,
+                                704
+                            ],
+                            "count": 600
+                        },
+                        "79": {
+                            "resolution": [
+                                1280,
+                                768
+                            ],
+                            "count": 920
+                        },
+                        "80": {
+                            "resolution": [
+                                1344,
+                                640
+                            ],
+                            "count": 240
+                        },
+                        "81": {
+                            "resolution": [
+                                1344,
+                                704
+                            ],
+                            "count": 60
+                        },
+                        "82": {
+                            "resolution": [
+                                1344,
+                                768
+                            ],
+                            "count": 1620
+                        },
+                        "83": {
+                            "resolution": [
+                                1408,
+                                640
+                            ],
+                            "count": 20
+                        },
+                        "84": {
+                            "resolution": [
+                                1408,
+                                704
+                            ],
+                            "count": 320
+                        },
+                        "85": {
+                            "resolution": [
+                                1472,
+                                640
+                            ],
+                            "count": 60
+                        },
+                        "86": {
+                            "resolution": [
+                                1472,
+                                704
+                            ],
+                            "count": 60
+                        },
+                        "87": {
+                            "resolution": [
+                                1536,
+                                640
+                            ],
+                            "count": 360
+                        }
+                    },
+                    "mean_img_ar_error": 0.01843453054085979
+                },
+                "modelspec.resolution": "1024x1024",
+                "ss_resolution": "(1024, 1024)",
+                "modelspec.date": "2024-04-20T07:15:27",
+                "sshs_model_hash": "fd28810bd9a15502e3a53c47be3aa03f0ab95dfc921c39887153333559e7f3e4",
+                "ss_optimizer": "transformers.optimization.Adafactor(scale_parameter=False,relative_step=False,warmup_init=False)",
+                "ss_flip_aug": "False",
+                "ss_max_grad_norm": "1.0",
+                "modelspec.sai_model_spec": "1.0.0",
+                "ss_bucket_no_upscale": "True",
+                "ss_min_bucket_reso": "256",
+                "ss_num_train_images": "38000",
+                "ss_network_alpha": "64.0",
+                "ss_ip_noise_gamma": "None",
+                "ss_gradient_checkpointing": "True",
+                "ss_sd_model_name": "sd_xl_base_1.0.safetensors",
+                "ss_text_encoder_lr": "7e-05",
+                "modelspec.title": "perfection style",
+                "ss_min_snr_gamma": "None",
+                "ss_epoch": "1",
+                "sshs_legacy_hash": "2ce87f84",
+                "ss_lr_scheduler": "constant",
+                "ss_caption_dropout_rate": "0.0",
+                "ss_mixed_precision": "bf16",
+                "ss_max_token_length": "None",
+                "ss_noise_offset": "0.0",
+                "ss_network_module": "networks.lora",
+                "ss_clip_skip": "None",
+                "ss_cache_latents": "True",
+                "ss_num_reg_images": "0",
+                "ss_max_train_steps": "6334",
+                "ss_steps": "6334",
+                "ss_full_fp16": "False",
+                "ss_debiased_estimation": "False",
+                "ss_network_dim": "128",
+                "modelspec.architecture": "stable-diffusion-xl-v1-base/lora",
+                "ss_reg_dataset_dirs": {},
+                "ss_prior_loss_weight": "1.0",
+                "ss_total_batch_size": "6",
+                "ss_session_id": "2998159958",
+                "ss_enable_bucket": "True",
+                "ss_num_epochs": "1",
+                "ss_learning_rate": "9e-05",
+                "ss_random_crop": "False",
+                "ss_lowram": "False",
+                "ss_shuffle_caption": "False",
+                "ss_max_bucket_reso": "2048",
+                "ss_zero_terminal_snr": "False",
+                "ss_output_name": "perfection style",
+                "ss_caption_dropout_every_n_epochs": "0",
+                "ss_multires_noise_iterations": "None",
+                "ss_adaptive_noise_scale": "None",
+                "ss_dataset_dirs": {
+                    "20_perfection style": {
+                        "n_repeats": 20,
+                        "img_count": 1900
+                    }
+                },
+                "ss_new_sd_model_hash": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+                "ss_gradient_accumulation_steps": "1",
+                "ss_seed": "3879111350",
+                "ss_v2": "False",
+                "ss_scale_weight_norms": "None",
+                "modelspec.prediction_type": "epsilon",
+                "ss_multires_noise_discount": "0.3",
+                "ss_training_comment": "None",
+                "ss_unet_lr": "9e-05",
+                "ss_network_dropout": "None",
+                "ss_lr_warmup_steps": "0",
+                "ss_base_model_version": "sdxl_base_v1-0",
+                "ss_sd_scripts_commit_hash": "62fbae6b3eedffbefd5964dd5c60c492ae905fc7",
+                "ss_sd_model_hash": "be9edd61",
+                "modelspec.implementation": "https://github.com/Stability-AI/generative-models",
+                "ss_num_batches_per_epoch": "6368",
+                "ss_caption_tag_dropout_rate": "0.0",
+                "ss_training_finished_at": "1713590127.0484247",
+                "ss_training_started_at": "1713558491.3402584",
+                "ss_face_crop_aug_range": "None"
+            }
+        }
+    },
+    "hashes": {
+        "checkpoint/v1-5-pruned-emaonly.safetensors": {
+            "mtime": 1714760640.1040561,
+            "sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa"
+        },
+        "checkpoint/Juggernaut_X_RunDiffusion_Hyper.safetensors": {
+            "mtime": 1715003755.892297,
+            "sha256": "010be7341cd98a136da775330ba3eb4e87025c6cfd2f5455dc64daee2200ae98"
+        },
+        "checkpoint/juggernautXL_v9Rdphoto2Lightning.safetensors": {
+            "mtime": 1715787193.5567467,
+            "sha256": "c8df560d2992ac04299412be6a36fa53a4e7a1b74f27b94867ad3f84f4b425a5"
+        },
+        "textual_inversion/easynegative": {
+            "mtime": 1721406508.3152857,
+            "sha256": "c74b4e810b030f6b75fde959e2db678c268d07115b85356d3c0138ba5eb42340"
+        }
+    },
+    "extensions-git": {
+        "sd-webui-controlnet": {
+            "mtime": 1715209865.765498,
+            "value": {
+                "remote": "https://github.com/Mikubill/sd-webui-controlnet",
+                "commit_date": 1715119128,
+                "branch": "main",
+                "commit_hash": "8d1389da5ee9cac4100fbbe54b1b795e22ce00f8",
+                "version": "8d1389da"
+            }
+        },
+        "sd-webui-infinite-image-browsing": {
+            "mtime": 1715210665.8982663,
+            "value": {
+                "remote": "https://github.com/zanllp/sd-webui-infinite-image-browsing",
+                "commit_date": 1713626151,
+                "branch": "main",
+                "commit_hash": "cadbe81c2462db09c7a8c79d85e9e89a47d2409e",
+                "version": "cadbe81c"
+            }
+        },
+        "clip-interrogator-ext": {
+            "mtime": 1715210758.5656424,
+            "value": {
+                "remote": "https://github.com/pharmapsychotic/clip-interrogator-ext",
+                "commit_date": 1694309746,
+                "branch": "main",
+                "commit_hash": "0f1a4591f82b93859a1b854afb79494f39384662",
+                "version": "0f1a4591"
+            }
+        },
+        "ultimate-upscale-for-automatic1111": {
+            "mtime": 1715210825.8765812,
+            "value": {
+                "remote": "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111",
+                "commit_date": 1709916937,
+                "branch": "master",
+                "commit_hash": "2322caa480535b1011a1f9c18126d85ea444f146",
+                "version": "2322caa4"
+            }
+        },
+        "adetailer": {
+            "mtime": 1715210860.9274,
+            "value": {
+                "remote": "https://github.com/Bing-su/adetailer",
+                "commit_date": 1713351463,
+                "branch": "main",
+                "commit_hash": "1edd58886014a8fdea73cfcc30dfac84f4684926",
+                "version": "1edd5888"
+            }
+        },
+        "openpose-editor": {
+            "mtime": 1716470223.8050752,
+            "value": {
+                "remote": "https://github.com/fkunn1326/openpose-editor",
+                "commit_date": 1697015060,
+                "branch": "master",
+                "commit_hash": "c935771507f57201e26f4ed507aa47f3812ca491",
+                "version": "c9357715"
+            }
+        },
+        "StyleSelectorXL": {
+            "mtime": 1715211028.5882304,
+            "value": {
+                "remote": "https://github.com/ahgsql/StyleSelectorXL",
+                "commit_date": 1705527661,
+                "branch": "main",
+                "commit_hash": "d538b0c47582e18e3e23decae0026e60632c8b7a",
+                "version": "d538b0c4"
+            }
+        },
+        "sd-webui-api-payload-display": {
+            "mtime": 1715221454.2811995,
+            "value": {
+                "remote": "https://github.com/huchenlei/sd-webui-api-payload-display.git",
+                "commit_date": 1700763306,
+                "branch": "main",
+                "commit_hash": "2d3332d94ffac0943bd35a1943924ed4650c6e63",
+                "version": "2d3332d9"
+            }
+        },
+        "stable-diffusion-webui-nsfw-censor": {
+            "mtime": 1716816256.5267823,
+            "value": {
+                "remote": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-nsfw-censor.git",
+                "commit_date": 1670672026,
+                "branch": "master",
+                "commit_hash": "c21cc99b731ff295039b0531e73968d1bf384570",
+                "version": "c21cc99b"
+            }
+        }
+    }
+}
